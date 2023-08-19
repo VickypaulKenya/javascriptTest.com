@@ -1,0 +1,51 @@
+<!DOCTYPEhtml>
+    <head>
+        <h3 style=" font-style: oblique; font-weight: 500; background-color: azure;">
+             Check her age before going for a date.</h3>
+        <style>
+            body{
+                background-color: rgb(163, 230, 137);
+            }
+        </style>
+        <body>
+            <script type="text/javascript">
+                var Age;
+                var linebreak=("</br>");
+
+               
+                    function getAge(){
+                if (getAge<18){
+                    document.write("This lady is underage.</br>");
+                    }
+                
+                    else if (getAge<=18){
+                        document.write("This lady qualifies for a date.</br>");
+                        
+                    }
+                    else if (getAge<=22){
+                        document.write("This lady is at GOOD age for a date.</br>");
+                        
+                    }
+                    else if (getAge<=25){
+                        document.write('This lady is at the BEST age for a date.</br>');
+                        
+                    }
+                    else if (getAge<=30){
+                        document.write("Take care she is at her expiry time for date.</br>");
+                       
+                    }
+                    else{
+                        document.write("This lady is OVER AGE, kinly search for a lady with lower age than her.</br>");
+                        
+                    }
+                    var ratval=prompt("Enter her age");
+                    document.write("You have entered her age:"+ retval);
+                }
+            </script>
+            <form> <p>Click the button bellow to enter her Age.</p>
+                <input type="button" onclick="getAge();" value="ENTER age">
+                <input type="button" onclick="print();" value="print" retur="getAge"> </form>
+        
+           
+        </body>
+</html>

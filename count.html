@@ -1,0 +1,23 @@
+<html> 
+<body> 
+<script>
+    let x = 10;
+    if(x==10){
+        let x =20;
+        console.log(x)
+    }
+    for(var i=0; i<5; i++){
+        (function(j){
+            setTimeOut(function (){
+                console.log(j);
+            
+        }, 1000);
+    })(i);
+    }
+    console.log(x);
+
+</script>
+
+</body> 
+</html> 
+
